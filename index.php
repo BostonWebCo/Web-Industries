@@ -9,12 +9,12 @@
     </div>
 
     <div id="logoLine">
-      <img src="images/WI-Logo.gif" alt="Web Industries" width="271" height="90" align="left">
+      <img src="<?php echo get_template_directory_uri() . '/assets/images/WI-Logo.gif'; ?>" alt="Web Industries" width="271" height="90" align="left">
       
       <div id="mainNav">
         <ul>
           <li><a href="#">HOME</a></li>
-          <li><a href="#" class="footer" >ABOUT</a></li>
+          <li><a href="#" class="footer">ABOUT</a></li>
           <li><a href="#" class="footer">MARKETS</a></li>
           <li><a href="#" class="footer">SERVICES</a></li>
           <li><a href="#" class="footer">LOCATIONS</a></li>
@@ -26,7 +26,7 @@
     </div>
 
     <div id="hometopSlide">
-        <div id="homeSlider"><img src="images/slideshowph.jpg">
+        <div id="homeSlider"><img src="<?php echo get_template_directory_uri() . '/assets/images/slideshowph.jpg'; ?>">
         </div> 
         <div id="homeSlideRight">
           <p class="fsize2"> <span class="orange">YOU&US=</span><br>
@@ -37,11 +37,11 @@ SUCCESS</p>
     </div> 
     
 <div id="home5Pix">
-        <div class="home5p1"><img src="images/home_toppic1.jpg" width="188" height="179"></div>
-        <div class="home5p1"><img src="images/home_toppic2.jpg" width="188" height="179"></div>
-        <div class="home5p1"><img src="images/home_toppic3.jpg" width="188" height="179"></div>
-        <div class="home5p1"><img src="images/home_toppic4.jpg" width="187" height="179"></div>
-        <div class="home5p1"><img src="images/home_toppic5.jpg" width="188" height="179"></div>
+        <div class="home5p1"><img src="<?php echo get_template_directory_uri() . '/assets/images/home_toppic1.jpg'; ?>" width="188" height="179"></div>
+        <div class="home5p1"><img src="<?php echo get_template_directory_uri() . '/assets/images/home_toppic2.jpg'; ?>" width="188" height="179"></div>
+        <div class="home5p1"><img src="<?php echo get_template_directory_uri() . '/assets/images/home_toppic3.jpg'; ?>" width="188" height="179"></div>
+        <div class="home5p1"><img src="<?php echo get_template_directory_uri() . '/assets/images/home_toppic4.jpg'; ?>" width="187" height="179"></div>
+        <div class="home5p1"><img src="<?php echo get_template_directory_uri() . '/assets/images/home_toppic5.jpg'; ?>" width="188" height="179"></div>
     </div>
     
     <div id="homeMain">
@@ -56,14 +56,14 @@ SUCCESS</p>
                   <p class="fsize1"><a href="#">Learn More &gt;&gt;</a></p>
             </div>
           <div id="mainBottLeft">
-            <div class="mainBLPic"><img src="images/Home_bottpic1.jpg" width="331" height="249"></div>
-            <div class="mainBLPic"><img src="images/Home_bottpic2.jpg" width="331" height="249"></div>
+            <div class="mainBLPic"><img src="<?php echo get_template_directory_uri() . '/assets/images/Home_bottpic1.jpg'; ?>" width="331" height="249"></div>
+            <div class="mainBLPic"><img src="<?php echo get_template_directory_uri() . '/assets/images/Home_bottpic2.jpg'; ?>" width="331" height="249"></div>
           </div>
           <div id="socialIcons">
-            <img src="images/Home_lkin.jpg" width="78" height="79" alt="Linkedin">
-            <img src="images/Home_gplus.jpg" width="78" height="79" alt="Google plus">
-            <img src="images/Home_fb.jpg" width="76" height="79" alt="Facebook">
-            <img src="images/Home_email.jpg" width="77" height="79" alt="Email">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/Home_lkin.jpg'; ?>" width="78" height="79" alt="Linkedin">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/Home_gplus.jpg'; ?>" width="78" height="79" alt="Google plus">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/Home_fb.jpg'; ?>" width="76" height="79" alt="Facebook">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/Home_email.jpg'; ?>" width="77" height="79" alt="Email">
           </div>
       </div>
       <div id="mainRightSide"><p><span class="fsize2 blue">NEWS</span><br>
